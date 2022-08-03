@@ -1,7 +1,7 @@
 export const listQs = [
     {
         id: 0,
-        qs: 'Chọn Câu Hỏi'
+        qs: 'CHỌN CÂU HỎI'
     },
     {
         id: 1,
