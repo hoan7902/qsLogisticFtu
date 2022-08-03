@@ -5,7 +5,11 @@ function App() {
   const [number, setNumber] = useState(0)
   
   const randomNumber = () => {
-    setNumber(number => number =Math.floor(Math.random() * 90))
+    var temp = Math.floor(Math.random() * 90)
+    while(temp == 0) {
+        temp = Math.floor(Math.random() * 90)
+    }
+    setNumber(number => number = temp)
   }
 
   return (
